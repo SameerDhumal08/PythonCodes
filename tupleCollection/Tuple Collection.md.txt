@@ -1,0 +1,70 @@
+Tuple Collection:
+
+
+
+
+🔹 What is a Tuple in Python?
+
+A tuple is a collection data type in Python used to store multiple values in a single variable.
+
+👉 It is ordered and immutable (cannot be changed).
+
+🔹 Properties of Tuple
+1. Ordered
+
+Elements have a fixed order.
+
+2. Immutable (Very Important)
+
+You cannot change the values after creation.
+
+3. Allows Duplicates
+
+4. Different Data Types Allowed
+
+
+The main difference between lists and tuples in Python is about mutability, syntax, and usage. Here’s a clear comparison:
+
+🔹 1. Mutability
+
+List → Mutable (can be changed)
+
+Tuple → Immutable (cannot be changed)
+
+
+🔹 2. Syntax
+
+List → Square brackets []
+
+Tuple → Parentheses ()
+
+
+🔹 3. Performance
+
+Tuple → Faster (because it is immutable)
+
+List → Slightly slower
+
+
+🔹 4. Methods Available
+
+List → Many methods (append(), remove(), sort(), etc.)
+
+Tuple → Few methods (count(), index())
+
+
+🔹 5. Memory Usage
+
+Tuple → Uses less memory
+
+List → Uses more memory
+
+
+🔹 6. Use Case
+
+List → When data needs to change
+(e.g., shopping list, marks list)
+
+Tuple → When data should not change
+(e.g., coordinates, fixed values)
+
