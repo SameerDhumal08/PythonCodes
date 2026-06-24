@@ -13,3 +13,12 @@ for i in numbers:
 
 print("Sum:", total)
 
+###
+numbers = [10, 20, 30, 40]
+
+total = 0
+
+for i in range(len(numbers)):
+    total = total + numbers[i]
+
+print("Sum:", total)
