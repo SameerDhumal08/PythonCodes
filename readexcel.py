@@ -52,3 +52,14 @@ df["Salary"] = [50000, 60000, 70000]
 
 print(df)
 
+#Sort Data
+
+print(df.sort_values("Age"))
+
+print(df.sort_values("Age", ascending=False))
+
+# Add new column 
+
+df["Salary"] = [50000, 60000, 70000]
+
+print(df)
